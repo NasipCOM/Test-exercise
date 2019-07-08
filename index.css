@@ -64,7 +64,7 @@ div {
 .feed_head {
   text-align: center;
   padding-top: 100px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
   font-size: 36px;
   font-weight: bold;
 }
@@ -72,19 +72,52 @@ div {
   display: flex;
   justify-content: center;
 }
-.feed_form:last-child {
-  padding-top: 40px;
+.feed_form{
+  margin-top: 30px;
 }
+
 .feed_input {
   border: 2px #b2c1cc solid;
   border-radius: 5px;
   padding: 10px 0 10px 20px;
-  width: 270px;
 }
+
 .feed_input::placeholder {
   color: #b2c1cc;
 }
 .option::placeholder {
   color: #474747;   
 }
+.okay{
+  margin-top: 20px  ;
+  text-align: center;
+}
+.okay a{
+  text-decoration: underline;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+ button{
+  background-color: #629FD1;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 40px 15px 40px;
+  color: white;
+}
 /* FINISH FEEDBACK SECTION*/
+
+
+/* FREQUANTLY ASKED QUESTION  START*/
+
+.faq_head{
+  font-size: 20px;
+  font-weight: bold;
+}
+.faq_img{
+  
+  width: 100%;
+  height: 70px;
+}
