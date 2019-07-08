@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 30" width="31" height="30">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #629fd1;stroke-width: 3.68 } 
+	</style>
+	<path id="Логотип" fill-rule="evenodd" class="shp0" d="M15 0C23.28 0 30 6.72 30 15C30 23.28 23.28 30 15 30C6.72 30 0 23.28 0 15C0 6.72 6.72 0 15 0ZM8.32 7.52C8.32 9.83 11.31 11.7 15 11.7C18.69 11.7 21.68 9.83 21.68 7.52C21.68 5.22 18.69 3.35 15 3.35C11.31 3.35 8.32 5.22 8.32 7.52Z" />
+</svg>

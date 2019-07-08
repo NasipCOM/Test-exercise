@@ -1,0 +1,90 @@
+div {
+  box-sizing: border-box;
+}
+/* HEAD SECTION START */
+.head_first {
+  color: white;
+  height: 100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+.flex ul li {
+  display: inline;
+  margin-right: 40px;
+}
+.flex ul a {
+  color: white;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+}
+#first {
+  background-color: #3c434d;
+}
+.bold_logo {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* SECOND PART */
+.header {
+  height: 530px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./Img/vestrahorn-mountain-iceland.jpg");
+}
+.header_content {
+  padding-top: 130px;
+  color: white;
+}
+.p_text {
+  font-size: 18px;
+  width: 820px;
+  display: flex;
+  justify-content: center;
+}
+.head_text {
+  font-size: 48px;
+  width: 750px;
+  display: flex;
+  justify-content: center;
+}
+
+/* FINISH HEAD SECTION*/
+
+/* START FEEDBACK SECTION*/
+#second {
+  height: 560px;
+}
+.feed_head {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.feed_form {
+  display: flex;
+  justify-content: center;
+}
+.feed_form:last-child {
+  padding-top: 40px;
+}
+.feed_input {
+  border: 2px #b2c1cc solid;
+  border-radius: 5px;
+  padding: 10px 0 10px 20px;
+  width: 270px;
+}
+.feed_input::placeholder {
+  color: #b2c1cc;
+}
+.option::placeholder {
+  color: #474747;   
+}
+/* FINISH FEEDBACK SECTION*/
