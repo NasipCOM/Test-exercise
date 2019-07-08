@@ -129,7 +129,7 @@ button {
   font-size: 20px;
   font-weight: bold;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .faq_img {
   width: 100%;
@@ -148,12 +148,11 @@ button {
   justify-content: space-between;
   margin-left: 5em;
 }
-.team_header{
+.team_header {
   font-size: 20px;
   font-weight: bold;
   color: #000000;
   margin-bottom: 20px;
-  
 }
 .right {
   float: right;
@@ -163,7 +162,47 @@ button {
   float: left;
   padding-top: 80px;
 }
-.team_text {
-  
-}
 /* FINISHED TEAM SECTION */
+
+/* FOOTER SECTION START */
+#footer {
+  margin-top: 190px;
+  background-color: #3c434d;
+  height: 430px;
+}
+.foot {
+  padding-top: 70px;
+}
+.foot_logo {
+  display: flex;
+}
+.foot_logo img {
+  width: 35px;
+  height: 35px;
+  margin-top: 4px;
+}
+
+.foot_logo p {
+  font-size: 28px;
+  font-weight: 900;
+  color: #fff;
+  margin-left: 12px;
+}
+.foot_text {
+  font-size: 18px;
+  color: #80909c;
+  font-weight: 100;
+}
+.foot_text ul {
+  list-style-type: none;
+  margin-left: -40px;
+}
+.foot_text ul li{
+  margin-top: 10px;
+}
+.foot_head {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+/* FINISHED FOOTER SECTION */
