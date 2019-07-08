@@ -1,3 +1,6 @@
+body {
+  font-family: "Lato", sans-serif;
+}
 div {
   box-sizing: border-box;
 }
@@ -23,7 +26,7 @@ div {
   height: 30px;
   width: 30px;
 }
-#first {
+#header {
   background-color: #3c434d;
 }
 .bold_logo {
@@ -33,7 +36,7 @@ div {
 
 /* SECOND PART */
 .header {
-  height: 530px;
+  height: 86vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("./Img/vestrahorn-mountain-iceland.jpg");
@@ -58,7 +61,7 @@ div {
 /* FINISH HEAD SECTION*/
 
 /* START FEEDBACK SECTION*/
-#second {
+#feedback {
   height: 560px;
 }
 .feed_head {
@@ -72,7 +75,7 @@ div {
   display: flex;
   justify-content: center;
 }
-.feed_form{
+.feed_form {
   margin-top: 30px;
 }
 
@@ -86,22 +89,22 @@ div {
   color: #b2c1cc;
 }
 .option::placeholder {
-  color: #474747;   
+  color: #474747;
 }
-.okay{
-  margin-top: 20px  ;
+.okay {
+  margin-top: 20px;
   text-align: center;
 }
-.okay a{
+.okay a {
   text-decoration: underline;
 }
-.btn{
+.btn {
   display: flex;
   justify-content: center;
   margin-bottom: 200px;
 }
- button{
-  background-color: #629FD1;
+button {
+  background-color: #629fd1;
   border: none;
   border-radius: 5px;
   padding: 15px 40px 15px 40px;
@@ -109,15 +112,58 @@ div {
 }
 /* FINISH FEEDBACK SECTION*/
 
-
 /* FREQUANTLY ASKED QUESTION  START*/
 
-.faq_head{
-  font-size: 20px;
+.faq {
+  color: #80909c;
+  font-size: 18px;
+}
+.faq_head {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 36px;
   font-weight: bold;
 }
-.faq_img{
-  
-  width: 100%;
-  height: 70px;
+.faq_header {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
 }
+.faq_img {
+  width: 100%;
+  height: 50px;
+  margin-top: 1em;
+}
+.faq_margin {
+  margin-bottom: 60px;
+}
+
+/* FINISH FAQ SECTION*/
+
+/* START TEAM SECTION */
+.flex_team {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5em;
+}
+.team_header{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
+  
+}
+.right {
+  float: right;
+  padding-top: 80px;
+}
+.left {
+  float: left;
+  padding-top: 80px;
+}
+.team_text {
+  
+}
+/* FINISHED TEAM SECTION */
