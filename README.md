@@ -1,2 +1,2 @@
 ## Test-exercise
-###### Small website, using html, css, some js.
+###### Small website, using html, css and some js.
