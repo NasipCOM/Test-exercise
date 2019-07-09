@@ -62,8 +62,7 @@ div {
 .profile_dot {
   position: relative;
   bottom: 92px;
-left: 66px;
-
+  left: 66px;
 }
 .relative {
   position: relative;
@@ -144,8 +143,46 @@ left: 66px;
 }
 .okay {
   margin-top: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   text-align: center;
-  margin-right: 80px;
+}
+
+.okay input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  display: none;
+}
+.okay input {
+  margin-top: 6px;
+}
+.okay:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.okay input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+.checkmark {
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border: 1px solid grey;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+}
+/* style its checked state..with a ticked icon */
+[type="checkbox"]:checked + span:before {
+  content: "\2714";
+  position: absolute;
+  top: -5px;
+  left: 0;
 }
 .okay a {
   text-decoration: underline;
@@ -195,24 +232,44 @@ button {
 /* FINISH FAQ SECTION*/
 
 /* START TEAM SECTION */
-.flex_team {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 5em;
-}
+
 .team_header {
   font-size: 20px;
   font-weight: bold;
   color: #000000;
   margin-bottom: 20px;
 }
-.right {
-  float: right;
-  padding-top: 80px;
+.team_head {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 15px;
+  padding-top: 20px;
 }
-.left {
-  float: left;
-  padding-top: 80px;
+.team_text {
+  color: #80909c;
+  font-size: 1em;
+  text-align: center;
+}
+.slick_img img {
+  margin: 0 auto;
+}
+.slick_img {
+  margin-bottom: 30px;
+}
+
+#team .slick-prev:before {
+  color: #7f8f9b;
+  padding: -10px;
+  /*   background: url("./Img/Вправо.jpg");
+ */
+}
+#team .slick-next:before {
+  color: #7f8f9b;
+  padding: -10px;
+  /*   background: url("./Img/Влево.jpg");
+ */
 }
 /* FINISHED TEAM SECTION */
 
@@ -292,7 +349,8 @@ button {
   .profile_dot {
     position: relative;
     bottom: 91px;
-  left: 111px;}
+    left: 111px;
+  }
   /* .flex ul li {
     display: block;
     margin-right: 0;

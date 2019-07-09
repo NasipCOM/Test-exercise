@@ -5,15 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!-- SLICK SLIDER CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
-
     <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css.map" />
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css.map" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js">
+    </script>
 
     <!-- Css -->
     <link rel="stylesheet" href="./index.css">
@@ -25,7 +31,7 @@
 </head>
 
 <body>
-
+        
     <section id="header">
         <div class="head_first container">
             <div class="flex">
@@ -92,10 +98,12 @@
                 <input placeholder="Начальный трафик" class="feed_input option ">
 
             </div>
-            <div class="okay">
-                <img src="./Img/okay.svg">
+
+            <label class="okay">
+                <input type="checkbox">
+                <span class="checkmark"></span>
                 <p>Приниаю условия <a href="">пользовательского соглашения</a></p>
-            </div>
+            </label>
         </div>
         <div class="btn">
             <div>
@@ -165,18 +173,56 @@
             <div class="faq_head">
                 Наши сотрудники
             </div>
-            <img src="./Img/Вправо.svg" class="left">
-            <div class="multiple-items">
+            <div class="multiple-items  container">
                 <div class="slick_img">
                     <img src="./Img/Фото (1).svg">
+                    <div class="team_head">
+                        Сергей Лапшин
+                    </div>
+                    <div class="team_text">
+                        Руководитель отдела продаж. Главный помощник генерального директора Ui Team
+                    </div>
                 </div>
                 <div class="slick_img">
                     <img src="./Img/Фото.svg">
-
+                    <div class="team_head">
+                        Сергей Кай
+                    </div>
+                    <div class="team_text">
+                        Руководитель отдела продаж. Главный помощник генерального директора Ui Team </div>
                 </div>
                 <div class="slick_img">
                     <img src="./Img/Фото (2).svg">
-
+                    <div class="team_head">
+                        Марина Безродова
+                    </div>
+                    <div class="team_text">
+                        Руководитель отдела продаж. Главный помощник генерального директора Ui Team </div>
+                </div>
+                <div class="slick_img">
+                    <img src="./Img/Фото (1).svg">
+                    <div class="team_head">
+                        Сергей Лапшин
+                    </div>
+                    <div class="team_text">
+                        Руководитель отдела продаж. Главный помощник генерального директора Ui Team
+                    </div>
+                </div>
+                <div class="slick_img">
+                    <img src="./Img/Фото.svg">
+                    <div class="team_head">
+                        Сергей Кай
+                    </div>
+                    <div class="team_text">
+                        Руководитель отдела продаж. Главный помощник генерального директора Ui Team </div>
+                </div>
+                <div class="slick_img">
+                    <img src="./Img/Фото (2).svg">
+                    <div class="team_head">
+                        Марина Безродова
+                    </div>
+                    <div class="team_text">
+                        Руководитель отдела продаж. Главный помощник генерального директора Ui Team </div>
                 </div>
             </div>
         </div>
@@ -303,6 +349,7 @@
 
         </div>
     </section>
+    <script src="./index.js" type="text/javascript"></script>
     <!-- JQUERY -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/core.js"></script>
     <!-- SLICK SLIDER JS-->
