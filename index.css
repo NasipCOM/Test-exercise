@@ -1,3 +1,16 @@
+/*=======================================================
+
+TABLE OF CONTENTS:
+
+0.1  HEADER SECTION
+0.2  FEEDBACK SECTION
+0.3  FAQ SECTION
+0.4  TEAM SECTION 
+0.5  FOOTER SECTION
+
+=======================================================*/
+
+
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +21,10 @@ body {
 div {
   box-sizing: border-box;
 }
-/* HEAD SECTION START */
+/*=====================================
+0.1 HEAD SECTION STARTS
+=======================================*/
+
 .head_first {
   color: white;
   height: 100px;
@@ -106,9 +122,14 @@ div {
   margin-left: 25px;
 }
 
-/* FINISH HEAD SECTION*/
+/*=====================================
+  HEAD SECTION HAVE FINISHED
+=======================================*/
 
-/* START FEEDBACK SECTION*/
+/*=====================================
+0.2 FEEDBACK SECTION STARTS
+=======================================*/
+
 #feedback {
   height: 560px;
 }
@@ -213,9 +234,13 @@ button {
   padding: 10px 40px 10px 40px;
   color: white;
 }
-/* FINISH FEEDBACK SECTION*/
+/*=====================================
+  FEEDBACK SECTION HAVE FINISHED
+=======================================*/
 
-/* FREQUANTLY ASKED QUESTION  START*/
+/*=====================================
+0.3 FAQ SECTION STARTS
+=======================================*/
 
 .faq {
   color: #80909c;
@@ -243,9 +268,13 @@ button {
   margin-bottom: 60px;
 }
 
-/* FINISH FAQ SECTION*/
+/*=====================================
+  FAQ SECTION HAVE FINISHED
+=======================================*/
 
-/* START TEAM SECTION */
+/*=====================================
+0.4 TEAM SECTION STARTS 
+=======================================*/
 
 .team_header {
   font-size: 20px;
@@ -289,9 +318,13 @@ button {
 .carusel {
   width: 95%;
 }
-/* FINISHED TEAM SECTION */
+/*=====================================
+  TEAM SECTION HAVE FINISHED
+=======================================*/
 
-/* FOOTER SECTION START */
+/*=====================================
+0.5 FOOTER SECTION STARTS
+=======================================*/
 #footer {
   margin-top: 190px;
   background-color: #3c434d;
@@ -357,7 +390,13 @@ button {
 .footer_flex img {
   margin-right: 25px;
 }
-/* FINISHED FOOTER SECTION */
+/*=====================================
+  FOOTER SECTION HAVE FINISHED 
+=======================================*/
+
+/*=====================================
+  ADAPTIVITY PART WITH MEDIA STARTS
+=======================================*/
 
 @media screen and (max-width: 993px) {
   .p_text {
@@ -368,14 +407,6 @@ button {
     bottom: 91px;
     left: 111px;
   }
-  /* .flex ul li {
-    display: block;
-    margin-right: 0;
-  }
-  .head_first {
-    color: white;
-    height: 150px;
-  } */
   .head_text {
     width: 100%;
     font-size: 2.3em;
@@ -418,3 +449,6 @@ button {
     padding-bottom: 100px;
   }
 }
+/*=====================================
+            FINISHED
+=======================================*/
