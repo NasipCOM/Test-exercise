@@ -22,9 +22,17 @@ div {
 .flex ul a {
   color: white;
 }
+.flex ul {
+  margin-top: 6px;
+}
 .logo {
-  height: 30px;
-  width: 30px;
+  height: 28px;
+  width: 28px;
+  margin-bottom: 12px;
+  margin-right: 5px;
+}
+.profile {
+  margin-top: 6px;
 }
 #header {
   background-color: #3c434d;
@@ -37,25 +45,32 @@ div {
 /* SECOND PART */
 .header {
   height: 86vh;
-  background-repeat: no-repeat;
   background-size: cover;
   background-image: url("./Img/vestrahorn-mountain-iceland.jpg");
 }
 .header_content {
-  padding-top: 130px;
+  padding-top: 120px;
   color: white;
 }
 .p_text {
   font-size: 18px;
+  text-align: center;
   width: 820px;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
 .head_text {
   font-size: 48px;
+  text-align: center;
   width: 750px;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+}
+.header_btn {
+  margin-top: 50px;
+  text-align: center;
+}
+.opacity_btn {
+  background: rgba(255, 255, 255, 0.3);
+  margin-left: 25px;
 }
 
 /* FINISH HEAD SECTION*/
@@ -68,14 +83,12 @@ div {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 40px;
-  font-size: 36px;
+  font-size: 2em;
   font-weight: bold;
 }
+
 .feed_form {
-  display: flex;
-  justify-content: center;
-}
-.feed_form {
+  text-align: center;
   margin-top: 30px;
 }
 
@@ -83,6 +96,14 @@ div {
   border: 2px #b2c1cc solid;
   border-radius: 5px;
   padding: 10px 0 10px 20px;
+  width: 220px;
+}
+.feed_input1 {
+  border: 2px #b2c1cc solid;
+  border-radius: 5px;
+  padding: 10px 0 10px 20px;
+  margin-right: 40px;
+  width: 220px;
 }
 
 .feed_input::placeholder {
@@ -94,6 +115,7 @@ div {
 .okay {
   margin-top: 20px;
   text-align: center;
+  margin-right: 80px;
 }
 .okay a {
   text-decoration: underline;
@@ -107,7 +129,7 @@ button {
   background-color: #629fd1;
   border: none;
   border-radius: 5px;
-  padding: 15px 40px 15px 40px;
+  padding: 10px 40px 10px 40px;
   color: white;
 }
 /* FINISH FEEDBACK SECTION*/
@@ -168,10 +190,12 @@ button {
 #footer {
   margin-top: 190px;
   background-color: #3c434d;
-  height: 430px;
+  height: 100%;
+  padding-bottom: 30px;
 }
 .foot {
   padding-top: 70px;
+  padding-bottom: 30px;
 }
 .foot_logo {
   display: flex;
@@ -197,12 +221,40 @@ button {
   list-style-type: none;
   margin-left: -40px;
 }
-.foot_text ul li{
+.foot_text ul li {
   margin-top: 10px;
 }
 .foot_head {
   font-size: 20px;
   font-weight: bold;
   color: #fff;
+}
+
+.foot_form input {
+  background-color: #50565f;
+  margin-top: 30px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0 10px 20px;
+  width: 300px;
+}
+.foot_form input::placeholder {
+  color: #99a6b1;
+}
+.foot_form button {
+  margin-top: 30px;
+}
+.footer_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.left_point {
+  color: #80909c;
+  font-size: 18px;
+}
+.footer_flex img {
+  margin-right: 25px;
 }
 /* FINISHED FOOTER SECTION */

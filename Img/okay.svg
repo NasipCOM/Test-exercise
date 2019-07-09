@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 9" width="11" height="9">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<path id="Иконка" class="shp0" d="M10.01 1.53L3.46 8L1.98 6.48L1.98 6.48L0.01 4.44L1.52 2.95L3.49 4.98L8.53 0.01L10.01 1.53Z" />
+</svg>
