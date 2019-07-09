@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   font-family: "Lato", sans-serif;
 }
@@ -75,7 +79,7 @@ div {
 .header {
   height: 86vh;
   background-size: cover;
-  background-image: url("./Img/vestrahorn-mountain-iceland.jpg");
+  background-image: url("./Img/photoeditorsdk-export\ \(2\).png");
 }
 .header_content {
   padding-top: 120px;
@@ -138,8 +142,16 @@ div {
 .feed_input::placeholder {
   color: #b2c1cc;
 }
-.option::placeholder {
+.option {
   color: #474747;
+  background-color: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("./Img/Вниз.svg");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 18px;
 }
 .okay {
   margin-top: 20px;
@@ -147,7 +159,9 @@ div {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 92px;
 }
 
 .okay input {
@@ -158,9 +172,7 @@ div {
   width: 0;
   display: none;
 }
-.okay input {
-  margin-top: 6px;
-}
+
 .okay:hover input ~ .checkmark {
   background-color: #ccc;
 }
@@ -168,14 +180,16 @@ div {
   background-color: #2196f3;
 }
 .checkmark {
-  height: 20px;
-  width: 20px;
+  height: 17px;
+  width: 17px;
   background-color: #eee;
   border: 1px solid grey;
   display: inline-block;
   position: relative;
   cursor: pointer;
   font-size: 20px;
+  margin-top: 3.5px;
+  margin-right: 3px;
 }
 /* style its checked state..with a ticked icon */
 [type="checkbox"]:checked + span:before {
@@ -271,6 +285,10 @@ button {
   /*   background: url("./Img/Влево.jpg");
  */
 }
+
+.carusel {
+  width: 95%;
+}
 /* FINISHED TEAM SECTION */
 
 /* FOOTER SECTION START */
@@ -302,7 +320,6 @@ button {
 }
 .foot_text ul {
   list-style-type: none;
-  margin-left: -40px;
 }
 .foot_text ul li {
   margin-top: 10px;
@@ -388,6 +405,12 @@ button {
   }
   #footer {
     padding-bottom: 65%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .okay {
+    margin-right: 0px;
+    margin-left: 4em;
   }
 }
 @media screen and (max-width: 360px) {
