@@ -8,7 +8,12 @@ TABLE OF CONTENTS:
 0.4  TEAM SECTION 
 0.5  FOOTER SECTION
 
-* {
+
+/*=====================================
+0.1 HEAD SECTION STARTS
+=======================================*/
+
+*{
   padding: 0;
   margin: 0;
 }
@@ -18,10 +23,6 @@ body {
 div {
   box-sizing: border-box;
 }
-/*=====================================
-0.1 HEAD SECTION STARTS
-=======================================*/
-
 .head_first {
   color: white;
   height: 100px;
